@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="itsol.internship.mockproject.dto.CategorynewsEntity">
+        <table name="CATEGORYNEWS" schema="INTERN" catalog=""/>
+        <attributes>
+            <id name="categoryNewsCode">
+                <column name="CATEGORY_NEWS_CODE"/>
+            </id>
+            <basic name="categoryNewsId">
+                <column name="CATEGORY_NEWS_ID"/>
+            </basic>
+            <basic name="categoryNewsName">
+                <column name="CATEGORY_NEWS_NAME"/>
+            </basic>
+            <basic name="createdDate">
+                <column name="CREATED_DATE"/>
+            </basic>
+            <basic name="updatedDate">
+                <column name="UPDATED_DATE"/>
+            </basic>
+            <basic name="staffCreate">
+                <column name="STAFF_CREATE"/>
+            </basic>
+            <basic name="staffUpdate">
+                <column name="STAFF_UPDATE"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

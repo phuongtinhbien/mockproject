@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="itsol.internship.mockproject.dto.PromotiondetailEntity">
+        <table name="PROMOTIONDETAIL" schema="INTERN" catalog=""/>
+        <attributes>
+            <id name="promotionDetailId">
+                <column name="PROMOTION_DETAIL_ID"/>
+            </id>
+            <basic name="promotionCode">
+                <column name="PROMOTION_CODE"/>
+            </basic>
+            <basic name="productCode">
+                <column name="PRODUCT_CODE"/>
+            </basic>
+            <basic name="quantity">
+                <column name="QUANTITY"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

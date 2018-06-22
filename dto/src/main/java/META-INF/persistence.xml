@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+        <mapping-file>itsol/internship/mockproject/dto/AreaEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/CartEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/CategorynewsEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/ColorEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/CustomerEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/CustomeraddressEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/ImageEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/NewsEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/PermissionEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/PositionEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/ProductEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/ProductDetailEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/ProductPriceEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/ProductTypeEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/PromotionEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/PromotiondetailEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/RoleEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/SaleorderdetailEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/SaleordersEntity.xml</mapping-file>
+        <mapping-file>itsol/internship/mockproject/dto/StaffEntity.xml</mapping-file>
+        <class>itsol.internship.mockproject.dto.AreaEntity</class>
+        <class>itsol.internship.mockproject.dto.CartEntity</class>
+        <class>itsol.internship.mockproject.dto.CategorynewsEntity</class>
+        <class>itsol.internship.mockproject.dto.ColorEntity</class>
+        <class>itsol.internship.mockproject.dto.CustomerEntity</class>
+        <class>itsol.internship.mockproject.dto.CustomeraddressEntity</class>
+        <class>itsol.internship.mockproject.dto.ImageEntity</class>
+        <class>itsol.internship.mockproject.dto.NewsEntity</class>
+        <class>itsol.internship.mockproject.dto.PermissionEntity</class>
+        <class>itsol.internship.mockproject.dto.PositionEntity</class>
+        <class>itsol.internship.mockproject.dto.ProductEntity</class>
+        <class>itsol.internship.mockproject.dto.ProductDetailEntity</class>
+        <class>itsol.internship.mockproject.dto.ProductPriceEntity</class>
+        <class>itsol.internship.mockproject.dto.ProductTypeEntity</class>
+        <class>itsol.internship.mockproject.dto.PromotionEntity</class>
+        <class>itsol.internship.mockproject.dto.PromotiondetailEntity</class>
+        <class>itsol.internship.mockproject.dto.RoleEntity</class>
+        <class>itsol.internship.mockproject.dto.SaleorderdetailEntity</class>
+        <class>itsol.internship.mockproject.dto.SaleordersEntity</class>
+        <class>itsol.internship.mockproject.dto.StaffEntity</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:oracle:thin:@www1.itsol.vn:1522:orcl"/>
+            <property name="toplink.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
+            <property name="toplink.jdbc.user" value=""/>
+            <property name="toplink.jdbc.password" value=""/>
+            <property name="toplink.logging.level" value="INFO"/>
+        </properties>
+    </persistence-unit>
+</persistence>

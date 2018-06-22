@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="itsol.internship.mockproject.dto.CustomeraddressEntity">
+        <table name="CUSTOMERADDRESS" schema="INTERN" catalog=""/>
+        <attributes>
+            <id name="customerAddressId">
+                <column name="CUSTOMER_ADDRESS_ID"/>
+            </id>
+            <basic name="customerCode">
+                <column name="CUSTOMER_CODE"/>
+            </basic>
+            <basic name="fullName">
+                <column name="FULL_NAME"/>
+            </basic>
+            <basic name="phoneNumber">
+                <column name="PHONE_NUMBER"/>
+            </basic>
+            <basic name="detailAddress">
+                <column name="DETAIL_ADDRESS"/>
+            </basic>
+            <basic name="areaCode">
+                <column name="AREA_CODE"/>
+            </basic>
+            <basic name="lockStatus">
+                <column name="LOCK_STATUS"/>
+            </basic>
+            <basic name="createdDate">
+                <column name="CREATED_DATE"/>
+            </basic>
+            <basic name="updatedDate">
+                <column name="UPDATED_DATE"/>
+            </basic>
+            <basic name="personUpdate">
+                <column name="PERSON_UPDATE"/>
+            </basic>
+            <basic name="primaryAddress">
+                <column name="PRIMARY_ADDRESS"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

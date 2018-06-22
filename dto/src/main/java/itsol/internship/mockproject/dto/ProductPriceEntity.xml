@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="itsol.internship.mockproject.dto.ProductPriceEntity">
+        <table name="PRODUCT_PRICE" schema="INTERN" catalog=""/>
+        <attributes>
+            <id name="productPriceId">
+                <column name="PRODUCT_PRICE_ID"/>
+            </id>
+            <basic name="productCode">
+                <column name="PRODUCT_CODE"/>
+            </basic>
+            <basic name="price">
+                <column name="PRICE"/>
+            </basic>
+            <basic name="vat">
+                <column name="VAT"/>
+            </basic>
+            <basic name="staffCreate">
+                <column name="STAFF_CREATE"/>
+            </basic>
+            <basic name="updatedDate">
+                <column name="UPDATED_DATE"/>
+            </basic>
+            <basic name="staffUpdate">
+                <column name="STAFF_UPDATE"/>
+            </basic>
+            <basic name="fromDate">
+                <column name="FROM_DATE"/>
+            </basic>
+            <basic name="toDate">
+                <column name="TO_DATE"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

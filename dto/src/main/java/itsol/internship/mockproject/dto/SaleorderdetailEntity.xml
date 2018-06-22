@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="itsol.internship.mockproject.dto.SaleorderdetailEntity">
+        <table name="SALEORDERDETAIL" schema="INTERN" catalog=""/>
+        <attributes>
+            <id name="sodId">
+                <column name="SOD_ID"/>
+            </id>
+            <basic name="soCode">
+                <column name="SO_CODE"/>
+            </basic>
+            <basic name="productCode">
+                <column name="PRODUCT_CODE"/>
+            </basic>
+            <basic name="productName">
+                <column name="PRODUCT_NAME"/>
+            </basic>
+            <basic name="sizeSp">
+                <column name="SIZE_SP"/>
+            </basic>
+            <basic name="color">
+                <column name="COLOR"/>
+            </basic>
+            <basic name="weight">
+                <column name="WEIGHT"/>
+            </basic>
+            <basic name="price">
+                <column name="PRICE"/>
+            </basic>
+            <basic name="quantity">
+                <column name="QUANTITY"/>
+            </basic>
+            <basic name="amount">
+                <column name="AMOUNT"/>
+            </basic>
+            <basic name="promotionCode">
+                <column name="PROMOTION_CODE"/>
+            </basic>
+            <basic name="freeItem">
+                <column name="FREE_ITEM"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

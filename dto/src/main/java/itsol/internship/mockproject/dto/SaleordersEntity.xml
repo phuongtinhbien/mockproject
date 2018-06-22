@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="itsol.internship.mockproject.dto.SaleordersEntity">
+        <table name="SALEORDERS" schema="INTERN" catalog=""/>
+        <attributes>
+            <id name="soCode">
+                <column name="SO_CODE"/>
+            </id>
+            <basic name="soId">
+                <column name="SO_ID"/>
+            </basic>
+            <basic name="customerCode">
+                <column name="CUSTOMER_CODE"/>
+            </basic>
+            <basic name="receiverName">
+                <column name="RECEIVER_NAME"/>
+            </basic>
+            <basic name="receiverPhone">
+                <column name="RECEIVER_PHONE"/>
+            </basic>
+            <basic name="receiverAddress">
+                <column name="RECEIVER_ADDRESS"/>
+            </basic>
+            <basic name="commment">
+                <column name="COMMMENT"/>
+            </basic>
+            <basic name="staffCreate">
+                <column name="STAFF_CREATE"/>
+            </basic>
+            <basic name="staffApprove">
+                <column name="STAFF_APPROVE"/>
+            </basic>
+            <basic name="staffUpdate">
+                <column name="STAFF_UPDATE"/>
+            </basic>
+            <basic name="createdDate">
+                <column name="CREATED_DATE"/>
+            </basic>
+            <basic name="updatedDate">
+                <column name="UPDATED_DATE"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+            <basic name="reasonReject">
+                <column name="REASON_REJECT"/>
+            </basic>
+            <basic name="payment">
+                <column name="PAYMENT"/>
+            </basic>
+            <basic name="sendDate">
+                <column name="SEND_DATE"/>
+            </basic>
+            <basic name="sendedDate">
+                <column name="SENDED_DATE"/>
+            </basic>
+            <basic name="paidMoney">
+                <column name="PAID_MONEY"/>
+            </basic>
+            <basic name="staffComment">
+                <column name="STAFF_COMMENT"/>
+            </basic>
+            <basic name="promotionCode">
+                <column name="PROMOTION_CODE"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

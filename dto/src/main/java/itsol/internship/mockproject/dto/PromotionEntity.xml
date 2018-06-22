@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="itsol.internship.mockproject.dto.PromotionEntity">
+        <table name="PROMOTION" schema="INTERN" catalog=""/>
+        <attributes>
+            <basic name="promotionId">
+                <column name="PROMOTION_ID"/>
+            </basic>
+            <basic name="promotionCode">
+                <column name="PROMOTION_CODE"/>
+            </basic>
+            <basic name="promotionContent">
+                <column name="PROMOTION_CONTENT"/>
+            </basic>
+            <basic name="timeStart">
+                <column name="TIME_START"/>
+            </basic>
+            <basic name="timeEnd">
+                <column name="TIME_END"/>
+            </basic>
+            <basic name="staffCreate">
+                <column name="STAFF_CREATE"/>
+            </basic>
+            <basic name="createdDate">
+                <column name="CREATED_DATE"/>
+            </basic>
+            <basic name="status">
+                <column name="STATUS"/>
+            </basic>
+            <basic name="staffUpdate">
+                <column name="STAFF_UPDATE"/>
+            </basic>
+            <basic name="updatedDate">
+                <column name="UPDATED_DATE"/>
+            </basic>
+            <basic name="detailType">
+                <column name="DETAIL_TYPE"/>
+            </basic>
+            <basic name="promotionName">
+                <column name="PROMOTION_NAME"/>
+            </basic>
+            <basic name="staffApprove">
+                <column name="STAFF_APPROVE"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
